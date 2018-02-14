@@ -21,19 +21,19 @@ export GOPATH=$(go env GOPATH)
 Following the [tutorial](https://golang.org/doc/code.html#Command).
 
 ```sh
-mkdir -p $GOPATH/src/github.com/s2t2/hello
-cd $GOPATH/src/github.com/s2t2/hello
+mkdir -p $GOPATH/src/github.com/s2t2/hello_go
+cd $GOPATH/src/github.com/s2t2/hello_go
 touch hello.go # then paste in the code
 ```
 
 Install packages:
 
 ```sh
-go install # or from anywhere with: go install github.com/user/hello
+go install # or from anywhere with: go install github.com/s2t2/hello_go
 ```
 
 Run the app:
 
 ```sh
-$GOPATH/bin/hello # or just... hello
+$GOPATH/bin/hello_go # or just... hello_go
 ```
